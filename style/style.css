@@ -90,7 +90,7 @@
   width: 100%;
   padding-top: 130px;
   padding-bottom: 75px;
-  background-image: url(../image/congress_hall-1.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/congress_hall-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,6 +107,7 @@
   margin: 0 auto;
   font-weight: 500;
   font-size: 27px;
+  line-height: 150%;
   color: #fff;
   margin-bottom: 70px;
 }
@@ -630,16 +631,17 @@
   margin-bottom: 25px;
 }
 .scheme__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   width: 140px;
   height: 30px;
   font-size: 13px;
-  line-height: 30px;
   font-weight: 700;
   color: #000;
   background-color: #fff;
   border-radius: 33px;
-  text-align: center;
   text-transform: uppercase;
   border: 1px solod white;
   transition: all 0.8s ease;
